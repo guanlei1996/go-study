@@ -14,7 +14,7 @@ func main() {
 //创建一个简单的类
 func makeType() entity.Person {
 	fmt.Println("make a type")
-	tom := entity.Person{Age:10, Name:"tom"}
+	tom := entity.Person{Age: 10, Name: "tom"}
 	fmt.Println(tom)
 	return tom
 }

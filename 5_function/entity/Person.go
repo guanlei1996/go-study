@@ -1,7 +1,7 @@
 package entity
 
 type Person struct {
-	Age uint8
+	Age  uint8
 	Name string
 }
 
@@ -17,6 +17,6 @@ func FunctionWithValue(person Person, name string) {
 	person.Name = name
 }
 
-func FunctionWithPointer(person *Person, name string)  {
+func FunctionWithPointer(person *Person, name string) {
 	person.Name = name
 }

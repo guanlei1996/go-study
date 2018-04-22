@@ -1,6 +1,6 @@
 package entity
 
 type Person struct {
-	Age int
+	Age  int
 	Name string
 }

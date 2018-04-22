@@ -16,6 +16,6 @@ func makeInit() {
 }
 
 func secondInit() {
-	m := map[string]int{"张三":20, "嘿嘿":21}
+	m := map[string]int{"张三": 20, "嘿嘿": 21}
 	fmt.Println(m)
 }
