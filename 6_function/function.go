@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/guanlei1996/go-study/5_function/entity"
 	"fmt"
+	"github.com/guanlei1996/go-study/6_function/entity"
 )
 
 func main() {
